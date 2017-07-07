@@ -47,3 +47,14 @@ function findMaxNum(listOfNums){
         }
     }
 }
+
+function sumOfRange(listOfNums){
+    console.log("List of numbers: " + listOfNums);
+    
+    var sumTotal = null;
+    for (var index = 0; index < listOfNums.length; index++){
+        sumTotal += listOfNums[index];
+
+        console.log("sumTotal: " + sumTotal)
+    }
+}
